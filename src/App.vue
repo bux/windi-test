@@ -1,6 +1,7 @@
 <template>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+    <p>Image has <code>mx-auto</code> and <code>p-8</code> classes.</p>
+    <img alt="Vue logo" src="./assets/logo.png" class="mx-auto p-8" />
+    <p>html and body should have <code>bg-yellow-200</code> applied.</p>
 </template>
 
 <script lang="ts">
@@ -18,7 +19,7 @@ export default defineComponent({
 <style>
 html,
 body {
-    @apply transition-colors duration-150;
+    @apply bg-yellow-200;
 }
 
 #app {
