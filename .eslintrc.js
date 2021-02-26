@@ -5,4 +5,9 @@ module.exports = {
         "@vue/typescript/recommended",
         "prettier",
     ],
+    plugins: ["prettier"],
+
+    rules: {
+        "prettier/prettier": "error",
+    },
 }
